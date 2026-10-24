@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enerpilot"
+version = "0.1.0"
+description = "AI and ML components for the EnerPilot industrial energy intelligence platform"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0.0",
+  "numpy>=1.26.0",
+  "scikit-learn>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
