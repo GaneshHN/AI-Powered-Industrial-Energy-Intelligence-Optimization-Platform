@@ -1,0 +1,7 @@
+{
+  "name": "EnerPilot — Industrial Energy Intelligence & Digital Twin",
+  "description": "AI-Powered Industrial Energy Intelligence, Optimization & Digital Twin Platform for smart manufacturing and energy operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
